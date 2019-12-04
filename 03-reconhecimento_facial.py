@@ -49,7 +49,7 @@ while True:
         cv2.rectangle(img, (x,y), (x+w,y+h), (255,0,0), 2)
 
         id, probabilidade = reconhecedor.predict(gray[y:y+h,x:x+w])
-        if (probabilidade < 100):
+        if (probabilidade < 60):
             id = names[id]
             probabilidade = "  {0}%".format(round(100 - probabilidade))
         else:
