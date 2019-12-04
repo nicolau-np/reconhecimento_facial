@@ -54,7 +54,7 @@ while True:
             probabilidade = "  {0}%".format(round(100 - probabilidade))
         else:
             id = "desconhecido"
-            probabilidade = "  {0}%".format(round(100 - probabilidade))
+            probabilidade = "  "
 
         cv2.putText(img, str(id), (x+5,y-5), fonte_letra, 1, (255,255,255), 2)
         cv2.putText(img, str(probabilidade), (x+5,y+h-5), fonte_letra, 1, (255,255,0), 1)  
