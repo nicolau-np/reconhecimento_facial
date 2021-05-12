@@ -18,7 +18,7 @@ id = 0
 fonte_letra = cv2.FONT_HERSHEY_SIMPLEX
 
 # nomes associados ao ID passado
-names = ['Valdimiro Pinto', 'Filson Felipe', 'Esmeralde Andrade',
+names = [
          'Dulce Fontes', 'Really', 'Raul', 'HTML', 'Mariano Tomás', 
          'Ariclinis Chimbili', 'Gustavo Macuva']
 
