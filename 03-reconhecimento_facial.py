@@ -18,7 +18,8 @@ id = 0
 fonte_letra = cv2.FONT_HERSHEY_SIMPLEX
 
 # nomes associados ao ID passado
-names = ['Thallyson', 'Andre', 'Gabigol', 'Alguem', 'Desconheido', 'Nada'] 
+names = ['Valdimiro Pinto', 'Filson Felipe', 'Esmeralde Andrade',
+         'Dulce Fontes', 'Really', 'Raul', 'HTML']
 
 # Initialize and start realtime video capture
 camera = cv2.VideoCapture(0)
