@@ -18,7 +18,7 @@ id = 0
 fonte_letra = cv2.FONT_HERSHEY_SIMPLEX
 
 # nomes associados ao ID passado
-names = ['Ninguem', "Nicolau NP"]
+names = ['Ninguem', "Nicolau NP", "Sachimuco Filipe"]
 
 # Initialize and start realtime video capture
 camera = cv2.VideoCapture(0)
